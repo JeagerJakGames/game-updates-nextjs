@@ -5,15 +5,38 @@
     font-size: 1.2rem;
 }
 
+.application{
+    height: 100vh;
+    width: 100vw;
+    background: radial-gradient(#27163f, #5059b6);
+}
+
 nav{
-    background-color: gray;
+    position: absolute;
+    height: 3.5rem;
+    width: 100vw;
+    padding: .2rem;
+    background-color: rgba(128, 128, 128, 0.217);
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    min-width: 5rem;
 }
 main{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.213);
 }
 .sidebar{
-    background-color: cadetblue;
+    position: absolute;
+    padding: .2rem;
+    min-height: 100vh;
+    max-width: 30vw;
+    background-color: rgba(95, 158, 160, 0.301);
 }
 footer{
-    background-color: beige;
+    font-size: xx-large;
+    max-height: 20vh;
+    margin-bottom: 0;
+    background-color: rgba(245, 245, 220, 0.246);
 }

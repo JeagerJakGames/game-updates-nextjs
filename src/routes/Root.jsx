@@ -5,11 +5,11 @@ import FooterSection from "../components/shared/footersection";
 
 export default function Root() {
   return (
-    <>
+    <div className="application">
       <Navigation />
       <SideBar />
       <Outlet />
       <FooterSection />
-    </>
+    </div>
   );
 }
